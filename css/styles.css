@@ -2,21 +2,29 @@ ul {
     list-style: none;
 }
 a{
-   text-decoration: none;
+   text-decoration: none;}
 
 /* основний колір #212121; */
 /* другорядний колір  #757575; */
 /* акцент #2196F3; */
 /* білий #FFFFFF; */
 
-/* лого */
-
-
+/* logo */
 .logo-blue{
-    color:#2196F3 ;
+color:#2196F3;
 }
 
-/* site nav */
-.site-nav{
-    color:#212121;
+.logo-black{
+    color:#000000;
 }
+
+/* site-nav */
+.site-nave, .link{
+    color:#2196F3;
+}
+.site-nave,.link:hover
+.site-nave:focus{
+    color: #000000;
+}
+
+
