@@ -6,7 +6,7 @@
     --web-info-color: rgba(255, 255, 255, 0.6);
     --logo-text-color: #000000;
     --hero-background-color:#2F303A;
-    
+    --button-background: #F5F4FA;
 }
 
 .list {
@@ -167,6 +167,10 @@ font-weight: 700;
  .contact-footer:focus{
     color: var(--accent-text-color);
  }
+
+.address{
+    font-style: normal;
+}
             /* portfolio */
 .title{
     font-weight: 700;
@@ -180,8 +184,9 @@ font-weight: 700;
         color: var(--secondary-text-color)
 }
 
+/* button */
 button:hover,:focus{
-    color: var(--white-text-color);
+    color: var(--accent-text-color);
     
 }
 button{   
@@ -191,10 +196,20 @@ button{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
 }
 
- 
+.button{
+    color: var(--pramary-text-color);
+    background: var(--button-background);
+    
+}   
 
-
-
-
+.button:hover{
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
+.button:focus{
+    color: var(--accent-text-color);
+}
