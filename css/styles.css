@@ -9,10 +9,10 @@
     
 }
 
-ul {
+.list {
     list-style: none;
 }
-a{
+.link{
    text-decoration: none;}
 
 /* основний колір #212121; */
@@ -20,16 +20,17 @@ a{
 /* акцент #2196F3; */
 /* білий #FFFFFF; */
 body{
-    position: relative;
-        width: 1600px;
-        height: 2346px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     background: var(--white-text-color);
     font-family:Roboto,sans-serif;
-    color: var(--pramary-text-color);}
+    color: var(--pramary-text-color);
+
+}
 
 /* logo */
 .logo{
-font-family: 'Raleway',cursive;
+font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -48,13 +49,13 @@ color: var(--accent-text-color);
 }
 
 /* site-nav */
-.site-nav{
+.nav{
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.site-nav .link.current{
+.nav .link.current{
     color: var(--accent-text-color)
 }
 .link{
@@ -85,13 +86,14 @@ color: var(--accent-text-color);
 .hero-title{
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
         text-align: center;
         text-transform: uppercase;
     color: var(--white-text-color);
 }
 
-/* cection */
+/* section */
 
 .visually-hidden.visually-hidden {
     position: absolute;
@@ -115,7 +117,6 @@ color: var(--accent-text-color);
 
 .section-text{
        color: var(--secondary-text-color);
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
 }
@@ -150,17 +151,15 @@ font-weight: 700;
 .footer{
     background-color:var(--hero-background-color);
 }
-.footer-link{
+.footer {
     color: var(--white-text-color);
         font-size: 14px;
         line-height: 1.71;
-        font-style: normal;
 }
 
 .contact-footer{
         font-size: 14px;
         line-height: 1.71;
-        font-style: normal;
      color: var(--web-info-color);
 }
 
@@ -173,6 +172,7 @@ font-weight: 700;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 .gallery-text{
         font-size: 16px;
@@ -182,13 +182,15 @@ font-weight: 700;
 
 button:hover,:focus{
     color: var(--white-text-color);
-    background-color: var(--accent-text-color);
-}
-.button{
     
+}
+button{   
     cursor: pointer;
-    font-family: inherit;
-   
+    font-family: inherit; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 
  
